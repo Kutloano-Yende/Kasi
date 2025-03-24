@@ -49,7 +49,7 @@ export default function Welcome({ auth }) {
                         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Featured Dishes</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-4">
                             {[
-                                { name: 'Signature Dish 1', price: 'R24.99', description: 'Traditional recipe with a modern twist', image: '/images/traditional food .jpg' },
+                                { name: 'Signature Dish 1', price: 'R24.99', description: 'Traditional recipe with a modern twist', image: '/images/traditional-food.jpg' },
                                 { name: 'Chef Special', price: 'R29.99', description: 'Seasonal ingredients, crafted with passion', image: '/images/grilled-platter.jpg' },
                                 { name: 'Local Favorite', price: 'R19.99', description: 'Community\'s most loved dish', image: '/images/Spatlo01.jpg' },
                             ].map((dish) => (
